@@ -15,7 +15,7 @@ class WallPaper extends StatelessWidget {
 
               children: <Widget>[
                 Container(
-                  height: 350,
+                  height: 420,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
@@ -57,7 +57,7 @@ class WallPaper extends StatelessWidget {
                   ),
                 ),
                 Spacer(),
-                Image.asset('images/background.jpg' , height: 330, ),
+                Image.asset('images/background.jpg', ),
               ],
             ),
           ),
